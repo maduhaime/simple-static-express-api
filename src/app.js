@@ -24,6 +24,7 @@ app.use(express.static(__dirname + "/public"));
 app.use("/api", apiRoutes);
 
 app.all("*", (req, res) => {
+  res.status(404);
   res.json({ message: `Sorry, the endpoint ${req.url} does not exist.` });
 });
 
