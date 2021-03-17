@@ -35,9 +35,12 @@ So `./src/json/avengers.json` will be served at `/api/avengers`.
 
 If the file doesn't exist, an error message will be returned to the client.
 
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+### Coding standard
+[Prettier](https://prettier.io/) must be used to format HTML, CSS, JavaScript and Markdown files.
+Visual Studio Code is the recommanded editor.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
