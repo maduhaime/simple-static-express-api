@@ -14,6 +14,7 @@ You must manually create a **.env** file at the root of the project folder.  Add
 
 ```bash
 PORT=3000
+LOG_FORMAT="dev"
 ```
 
 Run the following command to start the server in development.  
